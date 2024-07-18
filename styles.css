@@ -32,6 +32,7 @@ p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  letter-spacing: 0.3px;
 }
 
 /* common property */
@@ -247,11 +248,31 @@ h5 {
   border: 2px  solid skyblue;
   max-width: 1060px;
   margin: 100px auto 100px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 125px;
+  border-radius: 18px;
+    background: #222;
 }
 .run-content{
-
+ padding: 34px;
+ width: 443px;
 }
-
+.run-content button{
+  width: 224px;
+  margin-top: 20px;
+  padding: 16px 40px;
+}
+.run-content h3{
+  color: #FFF;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+}
+.run-img {
+  width: 366px;
+  padding: 30px;
+}
 
 @media screen and (max-width: 576px) {
   .body{
@@ -343,7 +364,32 @@ h5 {
   .card-4{
     width: 100%;
   }
-
-
-
+/* run extra mile */
+.Run-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+  width: 370px;
+  padding: 30px;
+}
+.run-content{
+  width: 95%;
+  padding: 10px;
+}
+.run-content h3{
+  margin:0;
+  padding:12px;
+}
+.run-content p{
+  padding: 12px;
+}
+.run-img{
+  width:fit-content;
+  /* padding: 10px; */
+}
+.run-content button{
+  width: 287px;
+  margin: 10px;
+}
 }
