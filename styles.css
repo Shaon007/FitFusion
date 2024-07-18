@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap');
+
+.fit {
+  font-family: "Playwrite IE", cursive;
+  font-size: 4.875rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ft {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.body {
+  background-color: #000;
+  width: 1440px;
+  ;
+}
+h3{
+  color: white;
+}
+p {
+  color: rgba(255, 255, 255, 0.50);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* common property */
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.df {
+  display: flex;
+}
+
+.dfc {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  color: white;
+  padding: 6px 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 46px;
+  background: #E6533C;
+}
+
+/* regular */
+.hc {
+  max-width: 1060px;
+  background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+  margin: 0 auto;
+
+}
+
+.nav {
+  border: 2px solid yellow;
+  max-width: 1060px;
+  justify-content: space-between;
+  /* margin: 0 190px; */
+  padding: 57px 10px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 10px; */
+}
+
+.nav h3 {
+  color: #E6533C;
+  padding-top: 3.7px;
+  /* padding-left: 100px; */
+  font-family: Inter;
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.nav-items a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.nav-i {
+  display: none;
+}
+
+.nav-items {
+  border-radius: 39px;
+  width: 457px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  margin-left: 100px;
+  padding: 5px;
+
+}
+
+.nav-item {
+
+  list-style: none;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-left: 5px;
+}
+
+.hcon {
+  width: 520px;
+  border: 2px solid wheat;
+
+}
+
+.hcon h3 {
+  color: #FFF;
+
+  font-family: Inter;
+  font-size: 4.875rem;
+  font-style: normal;
+}
+
+.p {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.50);
+}
+
+.join {
+  padding: 16px, 40px;
+  width: 224px;
+  justify-content: center;
+  border-radius: 42px;
+  height: 54px;
+}
+.join2{
+  display: none;
+}
+.da-btn {
+  width: 224px;
+  padding: 16px 40px;
+  justify-content: center;
+  border-radius: 42px;
+  border: 1px solid #FFF;
+  background-color: #000;
+  color: white;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  position: relative;
+}
+
+.th {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.tag1,
+.tag2 {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  width: 206px;
+  height: 96px;
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(10px);
+}
+
+.dot {
+  padding: 30px 20px 20px 20px;
+}
+
+.tag1 {
+  position: absolute;
+  left: 500px;
+  top: 410px;
+}
+
+.tag2 {
+  text-align: center;
+  position: absolute;
+  left: 840px;
+  top: 110px;
+}
+
+.fit {
+  padding: 0;
+  margin: 0;
+}
+
+/* habits section */
+.habit-container {
+  margin: 100px auto;
+  /* border: 2px solid gainsboro; */
+  width: 1060px;
+}
+
+.habit-content {
+  text-align: center;
+}
+
+.habit-content h3 {
+  color: #FFF;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.habit-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.habit-card h4 {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.habit-card img {
+  border-radius: 1000px;
+}
+
+/* Run extra mile */
+.Run-container{
+  border: 2px  solid skyblue;
+  max-width: 1060px;
+  margin: 100px auto 100px;
+}
+.run-content{
+
+}
+
+
+@media screen and (max-width: 576px) {
+  .body{
+    width: 574px;
+  }
+  .hc{
+    /* width: 572px; */
+  }
+  .nav-items {
+    display: none;
+
+  }
+
+  .nav h3 {
+    padding-left: 5px;
+  }
+
+  .nav-i img {
+    border: 2px solid white;
+    background-color: white;
+    display: flex !important;
+    width: 24px;
+  }
+  .hcon{
+    width: 572px;
+  }
+  .hero-container {
+    margin: 3.19px 1.3px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .tag1 {
+    position: absolute;
+    top: 860px;
+    left: 50px;
+    width: 230px;
+  }
+
+  .tag2 {
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    width: 180px;
+  }
+
+  .hcon h3 {
+    font-size: 2.25rem;
+  }
+  .habit-container{
+    width: 572px;
+    margin: 0;
+  }
+  .himg {
+    align-items: center;
+
+  }
+  .himg img{
+    width: 95%;
+  }
+  .habit-content h3{
+    font-size: 32px;
+
+  }
+  .habit-content{
+    /* width: 90%; */
+    /* align-items: center; */
+    align-items: start;
+  }
+  .habit-card {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  .habit-card img{
+    width: 240px;
+  }
+  .join{
+    display: none;
+  }
+  .join2{
+    display: inline-block;
+    /* width: 169px; */
+  }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4{
+    width: 100%;
+  }
+
+
+
+}
