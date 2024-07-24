@@ -6,6 +6,7 @@
   font-family: "Playwrite IE", cursive;
   font-size: 4.875rem;
   font-weight: 400;
+  line-height: 120%;
   font-style: normal;
 }
 
@@ -35,6 +36,7 @@ p {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.3px;
+  line-height: 24px;
 }
 
 /* common property */
@@ -57,10 +59,15 @@ h5 {
 .btn {
   color: white;
   padding: 6px 15px;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 600;
   justify-content: center;
   align-items: center;
   border-radius: 46px;
   background: #E6533C;
+  margin-right: 10px;
+  border: none;
 }
 
 /* regular */
@@ -89,8 +96,7 @@ h5 {
   /* padding-left: 100px; */
   font-family: Inter;
   font-size: 2.25rem;
-  font-style: italic;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .nav-items a {
@@ -122,20 +128,18 @@ h5 {
 
   list-style: none;
   justify-content: space-between;
-  padding-right: 40px;
+  padding-right: 48px;
   padding-left: 5px;
 }
 
 .hcon {
   width: 520px;
   padding-left: 10px;
-  /* border: 2px solid wheat; */
-
 }
 
 .hcon h3 {
   color: #FFF;
-
+  margin-top: 45px;
   font-family: Inter;
   font-size: 4.875rem;
   font-style: normal;
@@ -146,6 +150,7 @@ h5 {
   font-style: normal;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.50);
+  margin: 14px 0;
 }
 
 .join {
@@ -182,9 +187,19 @@ h5 {
 .th {
   color: #FFF;
   font-family: Inter;
+  padding-top: 5px;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 900;
+}
+.th1{
+  color: var(--Text-1, #FAFAF9);
+    font-family: Inter;
+    font-size: 24px;
+    padding-top: 15px;
+    font-weight: 900;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
 }
 
 .tag1,
@@ -217,6 +232,7 @@ h5 {
 .fit {
   padding: 0;
   margin: 0;
+  z-index: 1;
 }
 
 /* habits section */
@@ -228,6 +244,7 @@ h5 {
 
 .habit-content {
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .habit-content h3 {
@@ -253,6 +270,7 @@ h5 {
 
 .habit-card img {
   border-radius: 1000px;
+  margin-bottom: 20px;
 }
 
 /* Run extra mile */
@@ -323,10 +341,17 @@ h5 {
   border-collapse: collapse;
 }
 
-.table th,
-td {
+.table td,th {
   border: 1px solid gray;
   padding: 10px 40px;
+  text-align: start;
+  color: rgba(255, 255, 255, 0.20);
+    font-family: Inter;
+
+}
+.th{
+  color: #FFFFFF;
+
 }
 
 .bmi-chart th,
@@ -357,7 +382,6 @@ td {
 .cal-input {
   display: grid;
   gap: 10px;
-  /* width: 577px; */
   grid-template-areas:
     "h w"
     "a s"
@@ -390,32 +414,29 @@ td {
   color: rgba(255, 255, 255, 0.60);
   font-size: 16px;
   /* padding: 6px 10px 6px 12px; */
-  width: 270px;
+  padding-left: 15px;
+  width: 278px;
   height: 48px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.10);
 
 }
-
-.inpt ::placeholder {
-  color: rgba(255, 255, 255, 0.60);
-  font-family: Inter;
-  font-size: 16px;
-}
-
 .inpt1 {
   color: rgba(255, 255, 255, 0.60);
   font-size: 16px;
   margin-top: 2px;
-  width: 278px;
+  width: 298px;
   height: 52px;
+  padding-left: 15px;
   border-radius: 8px;
   background: rgb(62, 59, 59)
 }
 
 .inpt2 {
   color: rgba(255, 255, 255, 0.60);
-  width: 583px;
+  width: 606px;
+  padding-left: 15px;
+  margin-left: 2px;
   margin-top: 2px;
   height: 50px;
   border-radius: 8px;
@@ -781,7 +802,9 @@ td {
   .content-mid {
     margin-left: 27px;
   }
-
+  .content-left {
+    width: 90%;
+  }
   .content-mid {
     margin: 21px 24px;
     width: 47%;
