@@ -456,7 +456,11 @@ td {
 }
 
 .btn-cal {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
   margin-top: 30px;
+  border: none;
   color: white;
   padding: 16px 60px;
   justify-content: center;
@@ -520,7 +524,7 @@ td {
 
 /* footer section */
 .footer-container {
-  /* border: 2px solid yellow; */
+  border: 2px solid rgba(48, 48, 48, 0.54);
   width: 1440px;
   margin-left: 0;
   background: rgba(48, 48, 48, 0.54);
@@ -563,19 +567,20 @@ td {
   margin: 50px 130px;
   /*width: 32%; */
   justify-content: center;
-    align-items: center;
+  align-items: center;
 }
 
 .content-right {
-   /* width: 32%; */
+  /* width: 32%; */
   margin: 50px 130px;
   justify-content: center;
-    align-items: center;
+  align-items: center;
 }
 
 .footer-bottom {
   text-align: center;
   margin: 20px;
+  margin-bottom: 20px;
 }
 
 /* bonus section */
@@ -586,9 +591,11 @@ td {
   margin: 0 auto 100px;
   justify-content: space-between;
 }
-.bonus-content{
+
+.bonus-content {
   padding-left: 10px;
 }
+
 .bonus-content h2 {
   color: #FFF;
   font-size: 2rem;
@@ -606,12 +613,14 @@ td {
 .bonus-content textarea {
   max-width: 400px;
   height: 40px;
-  background-color:#222;
+  background-color: #222;
   border: none;
 }
-.bonus-input ::placeholder{
+
+.bonus-input ::placeholder {
   padding-left: 10px;
 }
+
 .bonus-btn button {
   font-family: Inter;
   font-size: 1.375rem;
@@ -621,18 +630,23 @@ td {
   border-radius: 5px;
   padding: 18px;
 }
-.bonus-map{
-  margin: 45px auto 40px ;
+
+.bonus-map {
+  margin: 45px auto 40px;
 
 }
-iframe{
+
+iframe {
   border-radius: 10px;
 }
+
 .bonus-input {
   margin: 8px;
   /* border: 2px solid wheat; */
 }
-input,textarea{
+
+input,
+textarea {
   color: white;
 }
 
@@ -640,6 +654,11 @@ input,textarea{
 @media screen and (max-width: 576px) {
   .body {
     width: 574px;
+  }
+
+  p {
+    font-size: 14px;
+    font-family: Inter;
   }
 
   .btn {
@@ -811,9 +830,10 @@ input,textarea{
     height: 386px;
     margin: 37px 0 52px 23px;
   }
-.inpt{
-  width: 222px;
-}
+
+  .inpt {
+    width: 222px;
+  }
 
   .inpt1 {
     width: 239px;
@@ -872,6 +892,12 @@ input,textarea{
     display: flex;
     flex-direction: column;
   }
+.content-mid p{
+  font-size: 23px;
+}
+  .content-right p {
+    font-size: 17px;
+  }
 
   .cont-bot h4 {
     color: #FFF;
@@ -881,13 +907,16 @@ input,textarea{
     font-weight: 700;
     line-height: 120%;
   }
-  .bonus-container{
+
+  .bonus-container {
     display: flex;
     flex-direction: column;
   }
-.bonus-map{
-  margin: 28px 20px;
-}
+
+  .bonus-map {
+    margin: 28px 20px;
+  }
+
   .footer-container hr {
     width: 320px;
   }
@@ -940,7 +969,7 @@ input,textarea{
 
   .footer-bottom p {
     color: rgba(255, 255, 255, 0.50);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
   }
 }
@@ -1094,5 +1123,5 @@ input,textarea{
   .footer-container hr {
     width: 670px;
   }
-  
+
 }
