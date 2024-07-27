@@ -416,34 +416,41 @@ td {
 
 .inpt {
   color: rgba(255, 255, 255, 0.60);
+  font-family: Inter;
   font-size: 16px;
   /* padding: 6px 10px 6px 12px; */
   padding-left: 15px;
   width: 278px;
-  height: 48px;
+  height: 51px;
   border-radius: 8px;
+  border: none;
   background: rgba(255, 255, 255, 0.10);
 
 }
 
 .inpt1 {
-  color: rgba(255, 255, 255, 0.60);
+  font-family: Inter;
+  color: rgba(255, 255, 255, 0.30);
   font-size: 16px;
   margin-top: 2px;
-  width: 298px;
+  width: 295px;
   height: 52px;
+  border: none;
   padding-left: 15px;
   border-radius: 8px;
   background: rgb(62, 59, 59)
 }
 
 .inpt2 {
-  color: rgba(255, 255, 255, 0.60);
-  width: 606px;
+  font-family: Inter;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.30);
+  width: 600px;
   padding-left: 15px;
   margin-left: 2px;
   margin-top: 2px;
   height: 50px;
+  border: none;
   border-radius: 8px;
   background: rgb(62, 59, 59)
 }
@@ -462,7 +469,7 @@ td {
 
 .team-container {
   width: 1060px;
-  border: 2px solid tan;
+  /* border: 2px solid tan; */
   margin: 100px auto;
 }
 
@@ -513,7 +520,7 @@ td {
 
 /* footer section */
 .footer-container {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 1440px;
   margin-left: 0;
   background: rgba(48, 48, 48, 0.54);
@@ -547,19 +554,23 @@ td {
 
 .content-left {
   margin-left: 120px;
-  width: 30%;
+  width: 28%;
   justify-content: center;
   align-items: center;
 }
 
 .content-mid {
-  margin: 50px 200px;
-  width: 30%;
+  margin: 50px 130px;
+  /*width: 32%; */
+  justify-content: center;
+    align-items: center;
 }
 
 .content-right {
-  width: 30%;
-  padding: 50px;
+   /* width: 32%; */
+  margin: 50px 130px;
+  justify-content: center;
+    align-items: center;
 }
 
 .footer-bottom {
@@ -569,46 +580,60 @@ td {
 
 /* bonus section */
 .bonus-container {
-  border: 2px solid darkgrey;
+  /* border: 2px solid darkgrey; */
   background-color: rgba(48, 48, 48, 0.54);
   max-width: 1060px;
   margin: 0 auto 100px;
   justify-content: space-between;
 }
-
+.bonus-content{
+  padding-left: 10px;
+}
 .bonus-content h2 {
   color: #FFF;
   font-size: 2rem;
   font-family: Inter;
-  padding-left: 10px;
+  padding-left: 65px;
 }
 
 .bonus-content input {
   width: 400px;
   height: 40px;
-  background-color: antiquewhite;
+  background-color: #222;
+  border: none;
 }
 
 .bonus-content textarea {
   max-width: 400px;
   height: 40px;
-  background-color: antiquewhite;
+  background-color:#222;
+  border: none;
 }
 .bonus-input ::placeholder{
   padding-left: 10px;
 }
 .bonus-btn button {
+  font-family: Inter;
+  font-size: 1.375rem;
+  letter-spacing: 0.5px;
   margin: 10px auto 0 10px;
   width: 420px;
-  border-radius: 0;
-  padding: 10px;
+  border-radius: 5px;
+  padding: 18px;
 }
 .bonus-map{
-  margin: 30px auto ;
+  margin: 45px auto 40px ;
+
+}
+iframe{
+  border-radius: 10px;
 }
 .bonus-input {
   margin: 8px;
   /* border: 2px solid wheat; */
+}
+input,textarea{
+  color: white;
 }
 
 /* mobile device */
@@ -786,10 +811,12 @@ td {
     height: 386px;
     margin: 37px 0 52px 23px;
   }
+.inpt{
+  width: 222px;
+}
 
-  .inpt,
   .inpt1 {
-    width: 234px;
+    width: 239px;
 
   }
 
@@ -798,7 +825,7 @@ td {
   }
 
   .inpt2 {
-    width: 500px;
+    width: 492px;
   }
 
   /* team secttion */
@@ -854,7 +881,13 @@ td {
     font-weight: 700;
     line-height: 120%;
   }
-
+  .bonus-container{
+    display: flex;
+    flex-direction: column;
+  }
+.bonus-map{
+  margin: 28px 20px;
+}
   .footer-container hr {
     width: 320px;
   }
@@ -893,14 +926,14 @@ td {
   .content-mid p {
     color: rgba(255, 255, 255, 0.50);
     font-family: Inter;
-    font-size: 23px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
   }
 
   .content-right {
-    width: 32%;
+    width: 100%;
     padding: 0;
     margin-left: 22px;
   }
@@ -1001,11 +1034,11 @@ td {
   }
 
   .inpt1 {
-    width: 408px;
+    width: 418px;
   }
 
   .inpt2 {
-    width: 830px;
+    width: 846px;
   }
 
   .cal-input {
@@ -1055,10 +1088,11 @@ td {
 
   .content-right {
     padding-top: 35px;
+    margin-top: 0;
   }
 
   .footer-container hr {
     width: 670px;
   }
-
+  
 }
