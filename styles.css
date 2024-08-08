@@ -230,9 +230,11 @@ h5 {
   left: 953px;
   top: 127px;
 }
-.tag2 p{
+
+.tag2 p {
   margin-top: 10px;
 }
+
 .fit {
   padding: 0;
   margin: 0;
@@ -896,6 +898,7 @@ textarea {
     display: flex;
     flex-direction: column;
   }
+
   .content-mid {
     width: 50%;
   }
