@@ -230,7 +230,9 @@ h5 {
   left: 953px;
   top: 127px;
 }
-
+.tag2 p{
+  margin-top: 10px;
+}
 .fit {
   padding: 0;
   margin: 0;
@@ -273,6 +275,7 @@ h5 {
 .habit-card img {
   border-radius: 1000px;
   margin-bottom: 20px;
+  border: 5px solid rgb(50, 49, 49);
 }
 
 /* Run extra mile */
@@ -892,9 +895,14 @@ textarea {
     display: flex;
     flex-direction: column;
   }
-.content-mid p{
-  font-size: 23px;
-}
+  .content-mid {
+    width: 50%;
+  }
+
+  .content-mid p {
+    font-size: 23px;
+  }
+
   .content-right p {
     font-size: 17px;
   }
